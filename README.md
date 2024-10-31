@@ -1,5 +1,5 @@
 # Verification of shuttling protocols in crossbar spin qubit architectures
-This repository contains a verification algorithm for adiabatic qubit shuttling-based routing in the shared-control crossbar spin qubit architecture. 
+This repository contains a verification algorithm for adiabatic qubit shuttling-based routing in the shared-control crossbar spin qubit architecture, which is used in the manuscript 'Compiling the surface code to crossbar spin qubit architectures'. 
 
 As inputs, one needs to specify (i) the desired movements of the electrons (qubits) in the array, and (ii) the abstract pulse sequence specifying the gate-voltage changes. Then, the algorithm verifies whether the abstract pulse sequence generates the desired movements.
 
